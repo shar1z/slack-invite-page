@@ -1,5 +1,8 @@
-Slack Invite Automation
+Slack Invite Automation Courtesy of [Kesor](https://github.com/kesor)
 ------------
+This is the auto-invite app for the OpenStack Community Slack - visit the page [here](https://openstackcommunityinvites.herokuapp.com/) - [https://openstackcommunityinvites.herokuapp.com/](https://openstackcommunityinvites.herokuapp.com/).
+
+
 
 A tiny web application to invite a user info your slack team.
 
