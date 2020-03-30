@@ -20,7 +20,10 @@ html
     script.
       var form = document.getElementById('join-form');
       var email = document.getElementById('slack-email')
-      form.addEventListener('submit', function(evt) {
+      <button type="button"
+    onclick="form.addEventListener('submit', function(evt)">
+    Submit</button>
+    {
         if (!email.value) {
           evt.preventDefault();
         }
