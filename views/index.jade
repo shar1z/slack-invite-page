@@ -15,14 +15,13 @@ html
   
     img(src="https://raw.githubusercontent.com/shar1z/slack-invite-page-openstack-community/master/img/openstack-slack.png")
     h1 Join the #{community} on Slack! (Click Enter to Send)
+    
     form(method="POST", action="/invite")#join-form
       input(type="text", name="email", placeholder="Enter your email")#slack-email
     script.
       var form = document.getElementById('join-form');
       var email = document.getElementById('slack-email')
-      <button type="button"
-    onclick="form.addEventListener('submit', function(evt)">
-    Submit</button>
+      <button type="button"onclick="form.addEventListener('submit', function(evt)">Submit</button>
     {
         if (!email.value) {
           evt.preventDefault();
